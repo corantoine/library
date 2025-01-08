@@ -1,4 +1,9 @@
 package fr.simplon.library.model;
 
-public class Genre {
+public enum Genre {
+    BIOGRAPHIE,
+    FANTASY,
+    ROMAN,
+    JEUNESSE
+
 }
