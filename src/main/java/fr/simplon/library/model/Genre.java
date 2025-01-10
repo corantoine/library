@@ -15,11 +15,6 @@ public class Genre{
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String nomDuGenre;
+
 }
-//    BIOGRAPHIE,
-//    FANTASY,
-//    ROMAN,
-//    JEUNESSE,
-//    FICTION,
-//    DYSTOPIE
 

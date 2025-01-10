@@ -11,11 +11,6 @@ nom VARCHAR(50) NOT NULL,
 prenom VARCHAR(50) NOT NULL
 
 );
-CREATE TABLE emprunts(
-id int AUTO_INCREMENT PRIMARY KEY,
-emprunteur_id INT REFERENCES emprunteurs(id),
-livre_id INT REFERENCES livres(id)
-);
 
 CREATE TABLE genres(
 id int AUTO_INCREMENT PRIMARY KEY,
